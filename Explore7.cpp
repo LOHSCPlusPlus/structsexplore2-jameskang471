@@ -46,6 +46,7 @@ void PrintLine(Line l) {
 int main() {
     // We can create two temporary points by directly calling the Point constructor
     Line a(Point(3,9), Point(12,22));
+    a.start.x = 30;
     Line b(Point(7,77), Point(128, -92));
     cout << "Line a";
     PrintLine(a);
