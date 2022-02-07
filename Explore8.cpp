@@ -47,6 +47,8 @@ Point FindMidPoint(Line l) {
     mid.y = (l.start.y + l.end.y)/2.0;
     return mid;
 }
+
+
 void FindLowestPoint(Line line) {
   if (line.start.y < line.end.y) {
   cout << "start point y value is lower with value: " << line.start.y;
@@ -55,6 +57,7 @@ void FindLowestPoint(Line line) {
     cout << "end point y value is lower with value: " << line.end.y;
   }
 }
+
 int main() {
     Line a(Point(3,9), Point(12,22));
     cout << "Line a";
